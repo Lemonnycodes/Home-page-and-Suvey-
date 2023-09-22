@@ -1,0 +1,77 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 40px auto;
+}
+
+h1 {
+    color: #006633; /* GMU Green */
+    border-bottom: 2px solid #FFCC29; /* GMU Gold */
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+/* Form Styles */
+.form-control {
+    border-radius: 0;
+    border: 2px solid #e0e0e0;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #FFCC29; /* GMU Gold */
+    box-shadow: none;
+}
+
+.required-field::after {
+    content: '*';
+    color: red;
+    margin-left: 5px;
+}
+
+.form-check-input {
+    margin-top: 6px;
+}
+
+.btn-primary {
+    background-color: #FFCC29; /* GMU Gold */
+    border: none;
+    color: #006633; /* GMU Green */
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #e5b025; /* Slightly Darker Gold */
+}
+
+.btn-secondary {
+    color: #FFCC29; /* GMU Gold */
+    background-color: #006633; /* GMU Green */
+    border: 2px solid #FFCC29; /* GMU Gold */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #006633; /* GMU Green */
+    background-color: #FFCC29; /* GMU Gold */
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .container {
+        margin: 20px 10px;
+        padding: 20px;
+    }
+}

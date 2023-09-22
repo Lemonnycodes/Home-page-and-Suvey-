@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Department Survey</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="document.getElementById('username').focus();">
+
+    <div class="container mt-5">
+
+        <h1>CS Department Survey</h1>
+
+        <form autocomplete="on">
+            <div class="form-group">
+                <label for="username" class="required-field">Username:</label>
+                <input type="text" class="form-control" id="username" placeholder="Enter username" required>
+            </div>
+
+            <div class="form-group">
+                <label for="address" class="required-field">Street Address:</label>
+                <input type="text" class="form-control" id="address" placeholder="123 Main St" required>
+            </div>
+
+            <div class="form-group">
+                <label for="city" class="required-field">City:</label>
+                <input type="text" class="form-control" id="city" required>
+            </div>
+
+            <div class="form-group">
+                <label for="state" class="required-field">State:</label>
+                <input type="text" class="form-control" id="state" required>
+            </div>
+
+            <div class="form-group">
+                <label for="zip" class="required-field">Zip:</label>
+                <input type="text" pattern="\d{5}" class="form-control" id="zip" placeholder="12345" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Telephone Number:</label>
+                <input type="tel" class="form-control" id="phone" placeholder="123-456-7890">
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="required-field">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="example@email.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="url">URL:</label>
+                <input type="url" class="form-control" id="url" placeholder="https://www.example.com">
+            </div>
+
+            <div class="form-group">
+                <label for="dateOfSurvey" class="required-field">Date of Survey:</label>
+                <input type="date" class="form-control" id="dateOfSurvey" placeholder="yyyy-mm-dd" required>
+            </div>
+
+            <div class="form-group">
+                <label>What did you like most about the campus? (Check all that apply)</label><br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="studentsCheck">
+                    <label class="form-check-label" for="studentsCheck">Students</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="locationCheck">
+                    <label class="form-check-label" for="locationCheck">Location</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="campusCheck">
+                    <label class="form-check-label" for="campusCheck">Campus</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="sportsCheck">
+                    <label class="form-check-label" for="sportsCheck">Sports</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="dormCheck">
+                    <label class="form-check-label" for="dormCheck">Dorm</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="atmosphereCheck">
+                    <label class="form-check-label" for="atmosphereCheck">Atmosphere</label>
+                </div>
+            </div>
+            
+
+            <div class="form-group">
+                <label class="required-field">How did you become interested in the university?</label>
+                
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="interestSource" id="friendsRadio" value="friends" required>
+                    <label class="form-check-label" for="friendsRadio">Friends</label>
+                </div>
+            
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="interestSource" id="TVRadio" value="TV" required>
+                    <label class="form-check-label" for="TVRadio">Television</label>
+                </div>
+            
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="interestSource" id="InternetRadio" value="Internet" required>
+                    <label class="form-check-label" for="InternetRadio">Internet</label>
+                </div>
+            
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="interestSource" id="OthersRadio" value="Others" required>
+                    <label class="form-check-label" for="OthersRadio">Other</label>
+                </div>
+            
+            </div>
+            
+                
+          
+
+            <div class="form-group">
+                <label for="comments">Additional Comments:</label>
+                <textarea class="form-control" id="comments" rows="4"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="graduationMonth" class="required-field">High-School Graduation Month:</label>
+                <input list="months" class="form-control" id="graduationMonth" required>
+                <datalist id="months">
+                    <option value="January">
+                    <option value="February">
+                    <option value="March">
+                    <option value="April">
+                    <option value="May">
+                    <option value="June">
+                    <option value="July">
+                    <option value="August">
+                    <option value="September">
+                    <option value="October">
+                    <option value="November">
+                    <option value="December">
+                </datalist>
+            </div>
+            
+            <div class="form-group">
+                <label for="graduationYear" class="required-field">High-School Graduation Year:</label>
+                <input type="number" class="form-control" id="graduationYear" placeholder="e.g. 2025" required>
+            </div>
+            
+
+            <div class="form-group">
+                <label for="likelihood" class="required-field">Likelihood of recommending:</label>
+                <select class="form-control" id="likelihood" required>
+                    <option>Very Likely</option>
+                    <option>Likely</option>
+                    <option>Unlikely</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        
+
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
