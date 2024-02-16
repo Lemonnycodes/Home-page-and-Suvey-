@@ -21,6 +21,6 @@ The student survey form allows users to enter relevant survey data, and the form
 ### URL
 - **Student Survey Form**: [http://ec2-3-133-113-158.us-east-2.compute.amazonaws.com/](http://ec2-3-133-113-158.us-east-2.compute.amazonaws.com/)
 
--('survey.html') provides the the suvery form with ('styles.css') for styling
+-**('survey.html')**: provides the the suvery form with ('styles.css') for styling
 
 
