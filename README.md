@@ -11,6 +11,10 @@ The repository containing the code for our class homepage and the student survey
 
 ### URLs
 - **HOMEPAGE URL**: [http://hw1-swathidsankaran.s3-website-us-east-1.amazonaws.com/]
+### Screenshot:
+<img src= "https://github.com/Lemonnycodes/AWS-S3-Homepage-and-Student-Survey-Application/blob/main/img/1.png" />
+<img src= "https://github.com/Lemonnycodes/AWS-S3-Homepage-and-Student-Survey-Application/blob/main/img/2.png" />
+
 
 
 ## Part 2: Student Survey on EC2
@@ -21,5 +25,8 @@ The student survey form allows users to enter relevant survey data, and the form
 ### URL
 - **Student Survey Form**: [http://ec2-3-133-113-158.us-east-2.compute.amazonaws.com/](http://ec2-3-133-113-158.us-east-2.compute.amazonaws.com/)
 - **('survey.html')**: provides the the suvery form with ('styles.css') for styling
+### Screenshot:
+<img src= "https://github.com/Lemonnycodes/AWS-S3-Homepage-and-Student-Survey-Application/blob/main/img/3.png" />
+<img src= "https://github.com/Lemonnycodes/AWS-S3-Homepage-and-Student-Survey-Application/blob/main/img/4.png" />
 
 
