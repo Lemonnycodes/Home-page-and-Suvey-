@@ -13,7 +13,7 @@ The repository containing the code for our class homepage and the student survey
 - **HOMEPAGE URL**: [http://hw1-swathidsankaran.s3-website-us-east-1.amazonaws.com/]
 ### Screenshot:
 <img src= "https://github.com/Lemonnycodes/AWS-S3-Homepage-and-Student-Survey-Application/blob/main/img/1.png" />
-<img src= "https://github.com/Lemonnycodes/AWS-S3-Homepage-and-Student-Survey-Application/blob/main/img/2.png" />
+
 
 
 
