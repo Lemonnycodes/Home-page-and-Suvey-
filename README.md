@@ -1,4 +1,4 @@
-# Homepage & Student Survey Assignment
+# Student Information Portal - Full Stack Application [Part 1]
 
 The repository containing the code for our class homepage and the student survey form. Below are the details and the URLs where you can access these pages.
 
